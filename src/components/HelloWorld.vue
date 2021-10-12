@@ -1,60 +1,56 @@
-<template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+<template >
+<section class="bod" >
+<section class="headBook" >
+<div class="bookHead">
+    <div class="logoBook">
+            <span class="sp">
+      <router-link to="/homepage"><button>DYSTOPIA</button> </router-link>
+            </span>
+    </div>
+    <div class="header_section_book">
+        <div class="header_items_book"><a href="movies.html">Movies</a></div>
+        <div class="header_items_book"><a href="books.html" target="_self">Books</a></div>
+        <div class="header_items_book"><a href="contact.html">Contact</a></div>
+    </div>
+</div>
+</section>
+
+<section class="br">
+<div class="container" >
+    <div class="content">
+        <div class="content_part"><div class="i1"></div><p>While it was published in 1949, this famous work is predictably set in 1984. <br>Orwell’s world foresees only three continental-sized nations, at least one of which is overseen by an ubiquitous, watchful government.<br> A censorship worker in this nation finds himself questioning the totalitarian system and its effort to obliterate individual thought and emotions, soon beginning a search for others who may be in the same boat. </p></div>
+        <div class="content_part"><div class="i2"></div><p>Set in a world that many of us avid readers would find nightmarish, Ray Bradbury’s Fahrenheit 451 is the story of Guy Montag, a “fireman” who is becoming disillusioned with his job — to put it simply, he’s assigned to set fire to books, rather than put fires out.<br> Unfortunately, society’s short attention span no longer calls for the perusal of novels, and the authoritarian state wants to prevent people from thinking too much (if at all). <br> What the government didn’t expect is Montag opening his mind to the mysteries of the written word and beginning a quest to try and salvage these books, as well as the minds of those around him. </p></div>
+        <div class="content_part"><div class="i3"></div><p>In this once-futuristic world — the book was published in 1985 about the near future — America is taken over by a religious sect, and the order of the country is pushed back several centuries. <br>Horrifyingly, women are domesticized and subordinated to men, even though environmental degradation and its impact on fertility means that fertile women are inordinately more precious and desired. <br>In the middle of all of this is Offred, a young woman who’s forced to bear children for ruling-class men. </p></div>
+        <div class="content_part"><div class="i4"></div><p>In contrast to the well-crafted orders we’ve encountered thus far, The Road transports us to a universe shattered by an unnamed catastrophe. <br>Ordinary lives are replaced by mad scrambles for food and supplies for those who survive. <br>In this bleak “eat or be eaten” situation, a father and his young son trek southwards in anticipation of the winter, driven by their hopes to find and unite with the “good guys.”</p></div>
+        <div class="content_part"><div class="i5"></div><p>In this dystopian classic, the World State government of the year 2540 AD controls the population not by telling them what to think, but by numbing them with happiness. <br>Henceforth Huxley’s Brave New World introduces readers to a seemingly perfect realm, with genetically-engineered, carefree, and well-fed citizens.
+            <br>With mass production and Fordism in mind, Huxley’s merry consumers and blissful citizens grow up with this sort of technology and kept satisfied by it.<br> So you can imagine how anyone who comes in from the outside “savage” world would appear to them… which is exactly what occurs, to tragic effect. The most striking and thus memorable thing about this novel is how it shows that the state doesn’t need to ban books or torture dissenters to silence them — our culture can purge itself of intellectuality simply through self-indulgence.</p></div>
+        <div class="content_part"><div class="i6"></div><p>Set in the 1990s, this Nobel Prize winner describes a city's social order that disintegrates as a curious contagion infects its population.<br> As cases spiral out of control, food runs scarce, and criminals exploit the chaos, the militant state heightens surveillance and set up quarantines to try and maintain order.
+           <br> At the heart of Blindness is our refusal to see the violence and heartlessness that already exist in our society. <br>Saramago is a famous allegorist, and he’s at his best in this work: with his unique style and resounding imagery, he emphasizes this harsh reality, and makes note of the importance of solidarity and compassion in dire situations.</p></div>
+        <div class="content_part"><div class="i7"></div><p>In this disturbing world, youth alienation manifests in a much more dramatic manner than heavy metal rock laden with angst. Indeed, our protagonist, Alex, bonds with his rebellious friends by means of vandalism and atrocious crimes. As his parents and social institutions attempt to stop and help him, Alex begins to adopt a different view of his friends and the isolating culture that he has grown up in. </p></div>
+        <div class="content_part"><div class="i8"></div><p>Set in 2021, James’s 1992 novel speaks of another society broken by infertility. As the last people to be born on Earth get killed in a pub fight and the world falls into disorder with no future for humanity, historian Theo Faron finds himself caught in a political fight with his dictatorial cousin, Xan. But then the struggles take a new turn when Theo finds out that there may be some hope for a future after all. </p></div>
+        <div class="content_part"><div class="i9"></div><p>Philip K. Dick’s acclaimed novel transports its readers to a post-apocalyptic world in which conditions on Earth have been made unlivable by natural disasters. As a result, we see the rise of artificial creatures that resemble organic creatures, which include humanoids. A bounty hunter receives an order to kill six of these androids, who he now must identify among the actual humans. </p></div>
+        <div class="content_part"><div class="i10"></div><p>In the year 2145, the world sweats as global warming takes over, flooding cities and mutating animals into beasts. As civilization becomes ravaged by these prehistoric creatures, Dr Robert Kerans and his team venture into newly uncharted territory to research the now-wild world.</p></div>
+        <div class="content_part"><div class="i11"></div><p>In a glimmering glass city of the distant future, humans live like androids — emotionless, passionless, and nameless. Each human is identified by number and only one of them, mathematician D-503, seems to realize that he can do things and think about things differently. As he discovers his own feelings through his relationships with others, readers learn more about the odd conventions of this totalitarian system — and the consequences of defying it. </p></div>
+        <div class="content_part"><div class="i12"></div><p>At the beginning of Never Let Me Go, we meet a caretaker in her thirties who reminisces about her school days as she runs into her old classmates. While this sounds like it could be just another young adult book mistakenly added to a list of dystopian novels, don’t be fooled: as we sink deeper into Kathy H.’s memories, elements of an unconventional and alarming society will emerge. </p></div>
+        <div class="content_part"><div class="i13"></div><p>Station Eleven hops back and forth between the timelines of several key characters: a dead actor, his first wife, the paparazzi who tried to save him, his close friend, and a young aspiring actress who witnessed his death. As if that’s not enough, their lives were also disrupted by a deadly flu that’s wiped most of civilization out of existence.</p></div>
+        <div class="content_part"><div class="i14"></div><p>This classic (which you can now listen to!) tells the story of a Victorian scientist who tests his time machine and travels to the far-off future, where he finds a carefree world occupied by childlike people. The scientist spends some time uncovering the development of humankind before returning to where he parked his Time Traveller — only to realize it is gone. As his adventure continues, the grim underbelly of this seemingly indulgent future comes to light. </p></div>
+        <div class="content_part"><div class="i15"></div><p>Oryx and Crake tracks two friends, Jimmy and Crake, who happen to stumble upon the dark side of the Internet in their teenage years: a simple act fuelled by youthful curiosity that would change their lives forever. In their adult years, the world’s population takes a nosedive after an odd pandemic strikes, and survivors desire to create genetically “better” humans. At the center of these technological developments is Crake, now a grown scientist, and Jimmy. </p></div>
+    </div>
+</div>
+</section>
+</section>
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
+  @import 'style.css';
 </style>
